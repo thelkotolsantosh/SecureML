@@ -1,0 +1,41 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+.venv
+venv/
+env/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Go ───────────────────────────────────────────────────────────────────────
+go/secureml-scan
+go/secureml-scan.exe
+*.test
+vendor/
+
+# ── Output / Data ────────────────────────────────────────────────────────────
+output/
+*.png
+*.pdf
+python/data/sample_traffic.csv
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
